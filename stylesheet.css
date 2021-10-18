@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&display=swap');
+
+body
+{
+    background-image: url(Images/bg.jpg);
+    background-size: cover;
+}
+
+.bg
+{
+    background-color: #e6e0e45d;
+    border: 2px solid #e6e0e45d;
+    box-shadow: 15px 15px 25px rgba(0, 0, 0, 0.651);
+    width: 70%;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+
+.left
+{
+    width: 75px;
+    position: absolute;
+    text-align: center;
+    
+}
+
+.top
+{
+    background-color: #E0AB8B;
+    width: 75px;
+    height: 65px;
+}
+
+.top img
+{
+    margin-top: 20px;
+    height: 30px;
+    width: 35px;
+}
+
+.top:hover img
+{
+    filter: opacity(50%);
+}
+
+.leftMenu
+{
+    position: relative;
+    margin-top: 65px;
+    line-height: 70px;
+}
+
+.leftMenu img
+{
+    width: 35px;
+    height: auto;   
+}
+
+.download
+{
+    margin-top: 45px;
+}
+
+.download img
+{
+    height: 40px;
+    width: 40px;  
+}
+
+.download:hover img
+{
+    filter: opacity(100%);
+}
+
+.container
+{
+    margin-left: 75px;
+    height: 500px;
+    position: absolute;
+}
+
+.container img
+{
+    height: 600px;
+    margin-top: -50px;
+    box-shadow: 25px 25px 25px 0 rgba(0, 0, 0, 0.377);
+}
+
+.content
+{
+    margin-left: 550px;
+}
+
+.name
+{
+    text-align: center;
+    font-family: 'Ephesis', cursive;
+    font-weight: bolder;
+    font-size: 60px;
+    word-spacing: 25px;
+}
+
+.social
+{
+    word-spacing: 50px;
+    text-align: center;
+    margin-top: 150px;
+}
+
+.social img
+{
+    height: 50px;
+    width: 50px;
+}
